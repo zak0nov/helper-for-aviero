@@ -2,16 +2,16 @@
   "MAIN": {
     "index": "Основной файл",
     "version": "2.0",
-    "url": ""
+    "url": "https://raw.githubusercontent.com/zak0nov/helper-for-aviero/main/helper-for-mia.lua"
   },
   "NPA-GREEN": {
     "index": "Уголовный и административный кодексы ARP Green",
     "version": "1",
-    "url": ""
+    "url": "https://github.com/zak0nov/helper-for-aviero/blob/main/185.169.134.238.json"
   },
   "USERS": {
     "index": "Пользователи",
     "version": "12",
-    "url": ""
+    "url": "https://raw.githubusercontent.com/zak0nov/helper-for-aviero/main/users.json"
   }
 }
