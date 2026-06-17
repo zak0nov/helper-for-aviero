@@ -1,6 +1,6 @@
 script_name("helper-for-aviero")
 script_author("Aviero")
-script_version("2.0")
+script_version("2.1")
 script_properties("work-in-pause", "forced-reloading-only")
 
 -- require
