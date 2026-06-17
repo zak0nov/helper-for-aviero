@@ -11,7 +11,7 @@
   },
   "USERS": {
     "index": "Пользователи",
-    "version": "12",
+    "version": "13",
     "url": "https://raw.githubusercontent.com/zak0nov/helper-for-aviero/main/users.json"
   }
 }
