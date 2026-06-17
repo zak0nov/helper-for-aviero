@@ -65,7 +65,6 @@ local function configuration_save(configuration, unloading)
 		if unloading then value["xconf"]:close() end
 	end return true
 end 
-
 local configuration = {
 	["directory"] = "moonloader//config//Helper for AVIERO",
 	["template"] = {
@@ -9812,7 +9811,7 @@ function sampev.onBulletSync(suspect_id, data)
 					else
 						local ok_civ = preliminary_check_suspect(suspect_id, 2)
 						if ok_civ and configuration["MAIN"]["settings"]["auto_report_attack"] then
-							command_r("На гражданского совершён наезд в районе $p. CODE 1.")
+							command_r("На гражданского совершён наезд в районе $p.  CODE 1.")
 						end
 					end
 				end
@@ -9968,9 +9967,6 @@ function checking_relevance_versions_and_files()
 	player_serial_number = tostring(getSerialNumber())
 
 	local responce = https.request("https://raw.githubusercontent.com/zak0nov/helper-for-aviero/main/versions.json")
-	print("==== VERSIONS.JSON ====")
-    print(responce)
-    print("==== END ====")
 	if responce then
 		local versions = decodeJson(responce)
 		if versions["MAIN"]["version"] == thisScript().version then
@@ -9981,11 +9977,6 @@ function checking_relevance_versions_and_files()
 				local url = string.format("https://raw.githubusercontent.com/zak0nov/helper-for-aviero/main/%s.json", ip)
 				local result = https.request(url)	
 				if result then
-				 print("==== DOCUMENT URL ====")
-                 print(url)
-                 print("==== DOCUMENT RESULT ====")
-                 print(result)
-                 print("==== END DOCUMENT ====")
 					local documents = decodeJson(result)
 					for k, document in ipairs(documents) do
 						for article, value in ipairs(document["content"]) do
