@@ -1,0 +1,18 @@
+{
+  "Vladimir_Aviero": {
+    "color": "{e33434}",
+    "rang": "Разработчик",
+    "rangNumber": 4,
+    "serialNumber": "1111111111 222222222 333333333",
+    "user_slots_value": 100,
+    "subscription": 2627203600
+  },
+  "Andrea_Aviero": {
+    "color": "{e33434}",
+    "rang": "Разработчик",
+    "rangNumber": 4,
+    "serialNumber": "1511115111 422222224 335333333",
+    "user_slots_value": 100,
+    "subscription": 2627203600
+  }
+}
